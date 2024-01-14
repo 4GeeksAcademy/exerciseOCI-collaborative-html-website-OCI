@@ -1,2 +1,23 @@
-<!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<div class="container-fluid p-4 mb-4" style="width: 80%">
+    <h1>Contact</h1>
+    <p>Donec ullamcorper nulla non metus auctor fingilla. Vestibulum id ligula porta felis euismod semper. Praesent
+        commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo</p>
+    <div class="container-fluid">
+        <div id="inputs" class=" row d-flex justify-content-center align-items-center">
+            <form action="/agregar-contacto" method="post" class="col-9 p-4 border-light bg-secondary rounded">
+                <div class="d-flex justify-content-between mb-2">
+                    <label for="email">Your email</label>
+                    <input type="email" class="form-control w-75" id="email" name="email" placeholder="Your email">
+                </div>
+                <div class="d-flex justify-content-between mb-2">
+                    <label for="mensaje">Your message</label>
+                    <textarea rows="3" class="form-control w-75" id="mensaje" name="mensaje" placeholder="Please enter your message here..."></textarea>
+                </div>
+                <div class="d-flex justify-content-end">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+
