@@ -1,3 +1,4 @@
+/*TAGLINE*/
 body{
     background: #BDBDBD;
     margin: 0%;
@@ -20,4 +21,13 @@ body{
 .background h2 {
     font-size: 6em;
     font-family: sans-serif;
+
 }
+/*---------------------------------*/
+
+.serviceText{
+    font-size:x-large;
+    margin-top: -2em;
+
+}
+/*DEVELOP*/
