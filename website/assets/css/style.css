@@ -1,3 +1,8 @@
 body{
     background: #BDBDBD;
 }
+
+.serviceText{
+    font-size:x-large;
+    margin-top: -2em;
+}
