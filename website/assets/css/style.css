@@ -14,19 +14,19 @@ body{
 }
 
 .background h1 {
-    font-size: 10em;
+    font-size: 7em;
     font-family:sans-serif;
 }
 
 .background h2 {
-    font-size: 6em;
+    font-size: 4em;
     font-family: sans-serif;
 
 }
 /*---------------------------------*/
 
 .serviceText{
-    font-size:x-large;
+    
     margin-top: -2em;
 
 }
